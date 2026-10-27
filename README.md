@@ -1,6 +1,6 @@
 
-
 # Annoy: This should be a paper Title
+
 
 <p align="center">
     📑 <a href="https://huggingface.co/papers/xxxx.xxxxx" target="_blank">Paper</a> &nbsp&nbsp | &nbsp&nbsp 🌐 <a href="https://specx.github.io/" target="_blank">Project Page</a> &nbsp&nbsp | &nbsp&nbsp 🤗 <a href="https://huggingface.co/collections/sadsad2dw/specx-67a978e28fd926b56a4f55a2" target="_blank">Released Resources</a> &nbsp&nbsp | &nbsp&nbsp 💾 <a href="https://huggingface.co/datasets/sadsad2dw/Annoy-PyEdu-Rs" target="_blank">Dataset</a> &nbsp&nbsp | &nbsp&nbsp 📦 <a href="https://github.com/WoodJudgeSlat/Annoy-DataSync" target="_blank">Repo</a>  
@@ -20,6 +20,7 @@
   - [Setup](#Setup)
   - [Data Processing](#Data-Processing)
   - [Training](#Training)
+- [License](#License)
 - [Citation](#Citation)
 - [Acknowledgement](#Acknowledgement)
 
@@ -48,6 +49,7 @@ Due to our collaborators' compliance requirements, we only release the PythonEdu
 
 
 #### Models
+
 <table>
     <tr>
         <th rowspan="2">Base Model / Training</th>
@@ -211,6 +213,10 @@ By doing so, you can get data `data/spec_demo_final.jsonl` with the same format 
 
 ### Training
 You can use any popular training framework to train your model like [llama-factory](https://github.com/hiyouga/LLaMA-Factory). 
+
+## License
+
+The released datasets are made available under the [ODC-By 1.0](https://opendatacommons.org/licenses/by/1-0/) license. `Annoy-PyEdu-Rs-Raw` is adopted from HuggingFaceTB's PythonEdu data, which is part of the ODC-By licensed SmolLM-Corpus. `Annoy-PyEdu-Rs` is our processed derivative, also released under ODC-By 1.0. When using these datasets, please retain the provenance/attribution information and comply with any upstream terms applicable to the underlying source data.
 
 ## Acknowledgement
 We thank Koala NN, TCLV and OMEN for their valuable feedback and suggestions! 🤗🤗🤗
